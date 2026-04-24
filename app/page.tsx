@@ -1,4 +1,4 @@
-import { AlertTriangle, TrendingUp, TrendingDown, Users, Eye, DollarSign, Zap, ExternalLink, CheckCircle, XCircle, AlertCircle } from "lucide-react";
+import { AlertTriangle, TrendingUp, TrendingDown, Users, Eye, DollarSign, Zap, CheckCircle, XCircle, AlertCircle } from "lucide-react";
 
 type Severity = "critical" | "warning" | "ok";
 
@@ -116,9 +116,6 @@ export default function AuditPage() {
           </div>
           <div className="flex items-center gap-3">
             <span className="text-xs" style={{ color: "#475569" }}>Mock account data · May 2024</span>
-            <a href="https://github.com/itanvirt/demo-meta-ads-audit" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium" style={{ color: "#94a3b8", border: "1px solid var(--border)" }}>
-              <ExternalLink size={11} /> Source
-            </a>
           </div>
         </div>
       </header>
@@ -268,7 +265,7 @@ export default function AuditPage() {
         <div className="text-center py-4">
           <p className="text-xs" style={{ color: "#334155" }}>
             Demo by <a href="https://tanviratuhin.com" style={{ color: "#7c3aed" }}>Tanvir Tuhin</a>
-            {" "}· All data is mock · <a href="https://github.com/itanvirt/demo-meta-ads-audit" style={{ color: "#7c3aed" }}>View source</a>
+            {" "}· All data is mock
           </p>
         </div>
       </main>
